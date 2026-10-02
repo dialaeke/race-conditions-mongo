@@ -1,6 +1,6 @@
 # Handling Race Conditions- MongoDB
 
-Race conditions occur when multiple functions try to create or update the same resource concurrently. At Nuvion, we use MongoDB to handle data because, quite frankly, `payments` is not real. Different countries have different requirements for handling payments such that trying to model a schema that works for all countries is not feasible so we have to be
+Race conditions occur when multiple handlers try to create or update the same resource concurrently. At Nuvion, we use MongoDB to handle data because, quite frankly, `payments` is not real. Different countries have different requirements for handling payments such that trying to model a schema that works for all countries is not feasible so we have to be
 adaptive and flexible in our data model.
 
 ## Problem
