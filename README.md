@@ -1,4 +1,4 @@
-# Handling Race Conditions During Transaction Processing- MongoDB
+# Handling Race Conditions- MongoDB
 
 Race conditions occur during transaction processing when multiple webhooks are received concurrently for the same transaction.
 At Nuvion, we use MongoDB to handle data because, quite frankly, `payments` is not real. Different countries have different requirements for handling payments such that trying to model a schema that works for all countries is not feasible so we have to be
